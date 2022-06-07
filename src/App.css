@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+  background: #1b1b1b;
+  padding: 20px;
+}
+
+.App .ekleme-formu {
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 25px 50px 0 rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.App .ekleme-formu input {
+  width: calc(100% - 80px);
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px 0 0 10px;
+  margin-bottom: 5px;
+  margin-right: 40px;
+}
+
+.App .ekleme-formu button {
+  background: #1b1b1b;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 10px;
+  position: absolute;
+  top: 19px;
+  right: 22px;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.App .ekleme-formu button:hover {
+  background: #fff;
+  color: #1b1b1b;
+  font-size: 0.9rem;
+}
+
+.App .liste {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App .liste ul {
+  width: 300px;
+  list-style: none;
+  padding: 10px;
+}
+
+.App .liste ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  color: #000;
+}
+
+.App .liste ul li.yapildi {
+  text-decoration: line-through;
+  background: tomato;
+}
+
+.App .temizle {
+  background: #1b1b1b;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 25px 50px 0 rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 300px;
+  font-size: 0.9rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.App .temizle:hover {
+  background: #fff;
+  color: #1b1b1b;
+  font-size: 0.9rem;
+}
